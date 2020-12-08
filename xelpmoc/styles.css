@@ -248,32 +248,6 @@ h3{
 
 }
 
-/*.day{
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 15px;
-  margin-left: 10px;
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-}*/
-
-/*.n-bordered{
-  border: 1px;
-  border-color: #3F3D56;
-  border-top: none;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 10px;
-  border-bottom-style: none;
-  border-left-style: none;
-  border-top-style: none;
-  border-right-style: none;
-}*/
 .n-bordered td{
   border: 1px;
   border-style: solid;
