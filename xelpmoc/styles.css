@@ -253,30 +253,4 @@ h3{
   border-style: solid;
   border-color: #3F3D56;
 }
-.container{
-  position: fixed;
-  transition: 200ms ease-in-out;
-  top: 50%
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  z-index: 10;
-}
-.container.active{
-  transform: translate(-50%, -50%) scale(1);
-}
-#overlay{
-  position: fixed;
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: black; 
-  opacity: 50%;
-  pointer-events: none;
-}
-#overlay.active{
-  pointer-events: all;
-  opacity: 1;
 
-}
